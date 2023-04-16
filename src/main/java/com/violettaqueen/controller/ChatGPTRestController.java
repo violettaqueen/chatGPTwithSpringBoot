@@ -13,7 +13,7 @@ import com.violettaqueen.model.SearchRequest;
 @RequestMapping("/api/v1")
 public class ChatGPTRestController {
 
-    private final ChatGPTService chatGPTService;
+    private ChatGPTService chatGPTService;
 
     public ChatGPTRestController(ChatGPTService chatGPTService) {
         this.chatGPTService = chatGPTService;
